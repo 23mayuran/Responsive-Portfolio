@@ -28,3 +28,31 @@ background-color:azure;
     text-size-adjust: auto;
    
 }
+
+
+#bio-image
+{
+    float: left;
+    padding:10px;
+    transform:rotate(90deg);
+}
+
+
+#About-me{
+
+    float: left;
+}
+
+section {
+    margin:10px;
+    background-color: white;
+
+}
+
+h2:after
+{
+    content:' ';
+    display:block;
+    border:2px solid gray;
+    margin:10px;
+}
