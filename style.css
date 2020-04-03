@@ -15,3 +15,16 @@ background-color:azure;
     padding:10px;
     margin:10px;
 }
+
+.nav-link {
+
+    color:white;
+}
+
+.navbar-brand{
+
+    background-color: teal;
+    padding:20px;
+    text-size-adjust: auto;
+   
+}
