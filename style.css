@@ -49,10 +49,62 @@ section {
 
 }
 
+p{
+    padding-left: 10px;
+}
+
+h2{
+    padding-left: 10px  ;
+}
+
 h2:after
 {
     content:' ';
     display:block;
     border:2px solid gray;
     margin:10px;
+}
+
+.row{
+    margin:10px;
+    padding:10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+
+  .cards{
+
+    padding: 10px;
+}
+
+
+
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.5s ease;
+
+}
+
+.inner:hover img{
+    transform: scale(1.5);
+}
+
+@media all and (max-width: 600px) {
+    .cards{
+
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+   
+
 }
